@@ -39,9 +39,11 @@ hold on
 plot(w(2:n),Amp(2:n),'r')
 g_psd = fft(win.*xAcc(1:N,3));
 Amp =sqrt( 4*((abs(g_psd)/N).^2));
+figur(3)
 plot(w(2:n),Amp(2:n),'g')
 g_psd = fft(win.*xAcc(1:N,4));
 Amp =sqrt( 4*((abs(g_psd)/N).^2));
+figur(4)
 plot(w(2:n),Amp(2:n),'b')
 title('FFT -greining');
 xlabel('Tíðni [Hz]');
