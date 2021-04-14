@@ -1,4 +1,4 @@
-% Úrvinnsluforrit
+% Úrvinnsluforrit (reiknar fast fourier transform og teiknar á gröf 2,3,4)
 
 function svfft
 % Sækja söfnunartíðni og fjöldi mæligilda fyrir mæling
